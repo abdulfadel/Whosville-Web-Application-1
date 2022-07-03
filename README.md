@@ -1,5 +1,6 @@
 # Whosville-Web-Application
 Whosville web application
 
-Guys lets work on this template and build the website from it.
-The old page is on the old folder
+All commits must include a message! 
+
+Main Repo Link => https://github.com/ADJ43/Whosville-Web-Application
