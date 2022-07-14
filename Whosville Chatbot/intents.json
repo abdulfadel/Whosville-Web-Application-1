@@ -1,0 +1,84 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey there, want to learn more about Whosville?",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "Whosville",
+        "patterns": [
+          "Where is whosville located?",
+          "What timezone is Whosville in?",
+          "Who lives in whosville?"
+        ],
+        "responses": [
+          "Whosville in located in the USA.",
+          "Whosville doesn't have a current timezone to display.",
+          "Wonderful people live in Whosville."
+        ]
+      },
+      {
+        "tag": "pages",
+        "patterns": [
+          "What's there to eat in Whosville?",
+          "How diverse is Whosville?",
+          "When is the next community event?"
+        ],
+        "responses": [
+          "Here's a list of places to eat [link](FoodAndCulture.html)",
+          "Learn more about our diverse culture at [link](FoodAndCulture.html)",
+          "All of our events are year round [link](Events.html)"
+        ]
+      },
+      {
+        "tag": "palceholder",
+        "patterns": [
+          "palceholder",
+          "palceholder"
+        ],
+        "responses": [
+          "palceholder",
+          "palceholder"
+        ]
+      },
+      {
+        "tag": "palceholder",
+        "patterns": [
+          "palceholder",
+          "palceholder",
+          "palceholder"
+        ],
+        "responses": [
+          "palceholder",
+          "palceholder"
+        ]
+      }
+    ]
+  }
