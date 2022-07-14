@@ -1,2 +1,1 @@
 const user = ""
-const password = ""
