@@ -79,3 +79,54 @@ html {
     cursor: pointer;
     outline: none;
   }
+
+  .button.button-close {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: block;
+    height: 4rem;
+    line-height: 2rem;
+    opacity: 0.9;
+    padding: 1rem;
+    position: fixed;
+    right: 1rem;
+    text-align: center;
+    top: 1rem;
+    width: 4rem;
+    z-index: 10;
+  }
+  
+  .button.button-close:before {
+    direction: ltr;
+    display: inline-block;
+    font-family: "Material Icons";
+    font-feature-settings: "liga";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #110f24;
+    content: "X";
+    line-height: 2rem;
+    /* Prevent text from icon name to show up before load */
+  }
+  
+  .preload .button.button-close:before {
+    font-size: 0;
+  }
+  
+  .button.button-close:hover {
+    opacity: 1;
+  }

@@ -1,56 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Opalin HTML Template - Sign Up</title>
-  <meta charset="utf-8">
-  <meta name="description" content="A minimal and responsive HTML5 landing page built on lightweight, clean and customizable code.">
-  <meta name="viewport" content="width=device-width">
-  <link rel="apple-touch-icon-precomposed" href="media/favicon.png">
-  <link rel="icon" href="media/favicon.png">
-  <link rel="mask-icon" href="media/favicon.svg" color="rgb(36,38,58)">
-  <link rel="shortcut icon" href="media/favicon.png">
-  <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp</title>
+  <link rel="stylesheet" href="./css/login2.css">
+  <script defer src="./js/login2.js"></script>
 </head>
-<body class="page page-onboarding preload">
 
-  <main>
-
+<body>
+  <main id="main-holder">
+    <h1 id="login-header">Sign Up</h1>
     <a href="index.html" class="button button-close" role="button"></a>
-
-    <section class="row no-gutter reverse-order">
-      <div class="col-one-half middle padding">
-        <div class="max-width-s">
-          <h5>Welcome!</h5>
-          <p class="paragraph">Enter your details to create an account.</p>
-          <form>
-            <div class="form-group">
-              <label for="name">Name:</label>
-              <input id="name" type="text" name="name">
-            </div>
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input id="email" type="email" name="email">
-            </div>
-            <div class="form-group">
-              <label for="password">Password:</label>
-              <input id="password" type="password" name="signup-password">
-            </div>
-            <a href="#" class="button button-primary full-width space-top" role="button">Create Account</a>
-          </form>
-        </div>
-        <div class="center max-width-s space-top">
-          <span class="muted">By creating an account, you agree to our </span><a href="#">Terms</a><span class="muted">.</span>
-        </div>
-        <div class="center max-width-s">
-          <span class="muted">Already have an account? </span><a href="login.html">Log In</a>
-        </div>
-      </div>
-      <div class="col-one-half bg-image-05 featured-image"></div>
-    </section>
-
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="password" name="password2" id="password-field2" class="login-form-field" placeholder="Re-enter Password">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+  
   </main>
-
-  <script src="js/main.js"></script>
-  <script src="/js/firebase.js"></script>
 </body>
+
 </html>
