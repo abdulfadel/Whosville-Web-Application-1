@@ -34,50 +34,59 @@
     {
       "tag": "Whosville",
       "patterns": [
-        "Where is whosville located?",
-        "What timezone is Whosville in?",
-        "Who lives in whosville?"
+        "Where is whosville located?"
       ],
       "responses": [
-        "Whosville in located in the USA.",
-        "Whosville doesn't have a current timezone to display.",
-        "Wonderful people live in Whosville."
+        "Whosville is located in the USA.",
+        "Whosville doesn't actually exist.",
+        "Somewhere in cyber space.",
+        "You can find us in another dimension"
       ]
     },
     {
-      "tag": "pages",
+      "tag": "Events",
+      "patterns": [
+        "When is the next community event?",
+        "Is there any events?",
+        "I want to attend an event",
+        "What's there to do in whosville?"
+      ],
+      "responses": [
+        "Learn more about our diverse culture at [link](FoodAndCulture.html)",
+        "All of our events are year round [link](Events.html)",
+        "There's plenty of planned events, checkout [link](Events.html)"
+      ]
+    },
+    {
+      "tag": "eat",
       "patterns": [
         "What's there to eat in Whosville?",
-        "How diverse is Whosville?",
-        "When is the next community event?"
+        "Where can I eat in Whosville?", 
+        "My is hungry", 
+        "We're really starving",
+        "What's cooking?",
+        "Got anything yummy?"
       ],
       "responses": [
         "Here's a list of places to eat [link](FoodAndCulture.html)",
-        "Learn more about our diverse culture at [link](FoodAndCulture.html)",
-        "All of our events are year round [link](Events.html)"
+        "Check out some of our top places to eat [link](FoodAndCulture.html)",
+        "Our local eateries offer a variety of dishes [link](FoodAndCulture.html)",
+        "Hungry, are ya? [link](FoodAndCulture.html)"
       ]
     },
     {
-      "tag": "palceholder",
+      "tag": "covid",
       "patterns": [
-        "palceholder",
-        "palceholder"
+        "I've got a cold",
+        "I think I have symptoms",
+        "He's had a fever, sore throat, dry mouth, can't taste, vomitting",
+        "Isn't feeling very great"
       ],
       "responses": [
-        "palceholder",
-        "palceholder"
-      ]
-    },
-    {
-      "tag": "palceholder",
-      "patterns": [
-        "palceholder",
-        "palceholder",
-        "palceholder"
-      ],
-      "responses": [
-        "palceholder",
-        "palceholder"
+        "Uh oh, I sure hope it's only a cold. You can seek help at [link](Covid-19.html)",
+        "Please take Covid-19 precaustions and checkout [link](Covid-19.html) for further information.",
+        "I'm just a robot but it sure sounds like you have the vid [link](Covid-19.html)",
+        "Social distancing and a mask is recomended. Checkout [link](Covid-19.html) for more info!"
       ]
     }
   ]
