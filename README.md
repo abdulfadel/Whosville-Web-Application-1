@@ -67,4 +67,3 @@ governments currently face.<br>
 
 > - You will need a Discord account to use the bot.
 
-- If you can read this - This README.md file is still under developement 😊 any suggestions would be great! 
