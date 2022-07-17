@@ -50,6 +50,12 @@ governments currently face.<br>
 ![Untitled (1065 × 300 px) (2)](https://user-images.githubusercontent.com/92131037/179386124-3cb1bf2a-e11b-4ad6-959c-c3f8b3b2f8ee.png)
 ![Blue Business Circle Category Diagram](https://user-images.githubusercontent.com/92131037/179386776-f9733f8a-d9d5-44f4-8864-e74d58740bdc.png)
 ![Untitled (1065 × 300 px) (1065 × 200 px) (3)](https://user-images.githubusercontent.com/92131037/179386962-2581fd19-a285-49ec-bd9c-2b368f4b2468.png)
+# Neural Network
+> A user's request will feed into the `input layer` -  Our chat dataset `intents.json` file is fed through two `hidden layers` - The AI's message is then sent through the `output layer`.
+
+![image](https://user-images.githubusercontent.com/92131037/179416749-5089aea7-a10a-4b01-bce5-155e5232611c.png)
+> Visual representation courtesy of [alexlenail](http://alexlenail.me/NN-SVG/index.html)
+
 # AI Chatbot
 > Epochs. One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE. Since one epoch is too big to feed to the computer at once we divide it in several smaller batches. [SAGAR SHARMA](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9#:~:text=the%20data%20given.-,Epochs,it%20in%20several%20smaller%20batches.)
 
@@ -66,4 +72,11 @@ governments currently face.<br>
 > In this demo, you can see if a user is chatting via web application a `GUEST` icon will appear near their username, but in the Discord appliction (right side) the user will also have a `BOT` icon. This is because we're utilizing the [Discord Widget](https://discord.com/blog/add-the-discord-widget-to-your-site#:~:text=You%20can%20get%20the%20widget,to%20see%20in%20the%20widget.) to mirror the channel on the web application. 
 
 > - You will need a Discord account to use the bot.
+
+# Future Roadmap
+> You will also want to develop a plan for how you would scale this solution in the future.
+
+![image](https://user-images.githubusercontent.com/92131037/179416835-85ad3840-9125-4f57-acf7-16f2a75ca468.png)
+![image](https://user-images.githubusercontent.com/92131037/179416845-78034ef7-87fd-4996-9d1a-b48e95c929ef.png)
+
 
