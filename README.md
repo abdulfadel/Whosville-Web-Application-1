@@ -36,7 +36,8 @@ governments currently face.<br>
 ![Untitled (1065 × 300 px) (1065 × 200 px)](https://user-images.githubusercontent.com/92131037/179385339-7344db26-45cf-4725-bfd6-850a0119a7ab.png)
 
 
-![Developer (2)](https://user-images.githubusercontent.com/92131037/179384885-e3f366c6-78d2-480f-8343-25850265a653.png)
+![Developer (3)](https://user-images.githubusercontent.com/92131037/179421773-1b3521d5-6340-448c-9075-1c8c792e82e3.png)
+
 
 ![Untitled (1065 × 300 px) (1065 × 200 px) (2)](https://user-images.githubusercontent.com/92131037/179385511-74bfc8fd-b7a3-4d39-939f-8da17a4630a2.png)
 
@@ -46,15 +47,23 @@ governments currently face.<br>
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="70" height="70"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python"  alt="Python" width="70" height="70"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original-wordmark.svg" title="VSCode" alt="VSCode" width="70" height="70"/>&nbsp;
+# Frameworks
+![image](https://user-images.githubusercontent.com/92131037/179421449-ba6aebd0-924a-4691-b464-454cd2e52def.png) ![image](https://user-images.githubusercontent.com/92131037/179421493-fb020f37-d7f6-4c9f-b11e-23341f561e3a.png) ![image](https://user-images.githubusercontent.com/92131037/179421586-bf62746c-3f81-42f5-a614-7f85183b6373.png) 
+ ![image](https://user-images.githubusercontent.com/92131037/179421531-66698b39-191e-424a-8561-a9cd2b188496.png)
+
+
 
 ![Untitled (1065 × 300 px) (2)](https://user-images.githubusercontent.com/92131037/179386124-3cb1bf2a-e11b-4ad6-959c-c3f8b3b2f8ee.png)
 ![Blue Business Circle Category Diagram](https://user-images.githubusercontent.com/92131037/179386776-f9733f8a-d9d5-44f4-8864-e74d58740bdc.png)
 ![Untitled (1065 × 300 px) (1065 × 200 px) (3)](https://user-images.githubusercontent.com/92131037/179386962-2581fd19-a285-49ec-bd9c-2b368f4b2468.png)
-# Neural Network
-> A user's request will feed into the `input layer` -  Our chat dataset `intents.json` file is fed through two `hidden layers` - The AI's message is then sent through the `output layer`.
+# Neural Netowk
+> - A user's message is sent to the `input layer`
+> - Between `hidden layer(s)` bot will parse the message using `NLTK` and `NLP`  and search through the dataset `intents.json.` file
+> - Model will then produce it's predited message to the `ouput layer`
 
-![image](https://user-images.githubusercontent.com/92131037/179416749-5089aea7-a10a-4b01-bce5-155e5232611c.png)
-> Visual representation courtesy of [alexlenail](http://alexlenail.me/NN-SVG/index.html)
+![image](https://user-images.githubusercontent.com/92131037/179420265-02f53c2c-6917-403d-a83b-a889a498a41e.png)
+> Diagram courtesy of [alexlenail](https://alexlenail.me/NN-SVG/)
+
 
 # AI Chatbot
 > Epochs. One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE. Since one epoch is too big to feed to the computer at once we divide it in several smaller batches. [SAGAR SHARMA](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9#:~:text=the%20data%20given.-,Epochs,it%20in%20several%20smaller%20batches.)
@@ -78,5 +87,13 @@ governments currently face.<br>
 
 ![image](https://user-images.githubusercontent.com/92131037/179416835-85ad3840-9125-4f57-acf7-16f2a75ca468.png)
 ![image](https://user-images.githubusercontent.com/92131037/179416845-78034ef7-87fd-4996-9d1a-b48e95c929ef.png)
+
+![Untitled (1065 × 300 px) (1065 × 200 px) (4)](https://user-images.githubusercontent.com/92131037/179421894-e8c23f9e-c48e-4c0e-ae15-36b8453d3bf5.png)
+
+
+![image](https://user-images.githubusercontent.com/92131037/179422070-98738a06-4be1-4327-a253-c0f73bcfec95.png)
+![image](https://user-images.githubusercontent.com/92131037/179421997-cde7a0e3-8848-4b32-82ba-ea0183c9935e.png) ![image](https://user-images.githubusercontent.com/92131037/179422026-680205c2-d5d8-4109-a04f-6208d479df9a.png)
+
+
 
 
